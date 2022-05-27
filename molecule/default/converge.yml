@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include thales.stproj"
+      include_role:
+        name: "thales.stproj"
